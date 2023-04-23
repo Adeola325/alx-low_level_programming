@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: 'Prints the alphabeth lowercase'
+ *Description: 'Print alphabeth lowercase and uppercase'
  *Return: Always 0
  */
 int main(void)
 {
 	int n = 97;
-	int n = 65;
+	int m = 65;
 
 	while (n <= 122)
 	{
@@ -16,8 +16,8 @@ int main(void)
 	}
 	while (n <= 90)
 	{
-		purchar(n);
-		n++;
+		purchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
