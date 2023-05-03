@@ -3,7 +3,7 @@
 /**
  * _strcpy - Copy a string
  * @dest: Destination value
- * @arc: Source value
+ * @src: Source value
  * Return: the pointer to dest
  */
 
